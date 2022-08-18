@@ -27,7 +27,7 @@ const Header = () => {
             </Link>
           </li>
           <li className={styles.home_item_link}>
-            <Link to="/acerca-de" className={styles.home_link}>
+            <Link to="/about_us" className={styles.home_link}>
               Conócenos
             </Link>
           </li>
