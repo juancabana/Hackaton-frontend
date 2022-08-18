@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Login.module.css";
+import { Link } from "react-router-dom";
 import imgLogo from "../../assets/UNACLogo.png";
 import imgLogin from "./../../assets/illustrationLogin.png";
 
@@ -9,7 +10,10 @@ const Login = () => {
       <div className={styles.wrapper_login}>
         <div className={styles.container_form}>
           <div className={styles.wrapper_image_logo}>
+            <Link to="/">
+
             <img src={imgLogo} alt="" className={styles.img_logo} />
+            </Link>
           </div>
           <h1 className={styles.h1_Form}>Inicia sesión</h1>
           <form action="" className={styles.form_login}>
