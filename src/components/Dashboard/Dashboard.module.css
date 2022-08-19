@@ -1,0 +1,129 @@
+.Dashboard{
+    background-color: #F7F7F7;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 300px;
+}
+/* Styles left bar  */
+.left_bar{
+    height: 100vh;
+    width: 100%;
+    max-width: 300px;
+    background-color: #FFFFFF;
+    
+}
+
+.wrapper_logo_image{
+    padding-top: 80px;
+    /* padding-bottom: 60px; */
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+}
+.wrapper_list_options{
+    height: 60%;
+    /* background-color: aliceblue; */
+    display: flex;
+    align-items: center;
+}
+.list_options{
+    width: 100%;
+    /* row-gap: 20px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+
+}
+.button_item{
+    width: 100%;
+    height: 50px;
+    border: none;
+    background-color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+
+    text-align: left;
+    font-weight: 500;
+    padding: 10px;
+    padding-left: 30px;
+
+
+}
+.button_item:hover {
+    background-color: aliceblue;
+    color: #4ea1ee;
+
+
+}
+
+/* Styles perfil bar  */
+.container_user_info{
+    position: absolute;
+    padding: 30px;
+    top: 0%;
+    right: 0%;
+    height: 100vh;
+    width: 100%;
+    max-width: 300px;
+    background-color: #FFFFFF;
+}
+.content_user_perfil{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wrapper_img_user{
+    width: 130px;
+    height: 130px;
+    background-color: cadetblue;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.h1_perfil{
+    width: 100%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+.h2_perfil{
+    width: 100%;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #626262;
+
+}
+.p_email, .p_number, .p_address{
+    font-family: 'Poppins', sans-serif;
+
+}
+.container_list_users{
+    width: 100%;
+    padding: 80px;
+    height: 100vh;
+    overflow: auto;
+}
+.h1_perfil{
+    text-align: left;
+}
+.wrapper_header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+th{
+    font-family: 'Poppins', sans-serif;
+
+}
+.img_perfil{
+    width: 100%;
+    background-size: cover;
+}

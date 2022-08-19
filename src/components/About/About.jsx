@@ -4,9 +4,10 @@ import styles from "./About.module.css";
 import imgAbout from "./../../assets/imgAbout.png";
 
 const About = () => {
-  return (
-    <div className={styles.About}>
+  return (<>
+ 
       <Header />
+    <div className={styles.About}>
       <div className={styles.wrapper_about}>
         <div className={styles.wrapper_h1}>
           <h1 className={styles.h1_About}>Sobre nosotros</h1>
@@ -47,7 +48,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>
+    </div> </>
   );
 };
 
